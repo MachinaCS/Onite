@@ -1,0 +1,14 @@
+diff --git a/shared/offline_compiler/source/CMakeLists.txt b/shared/offline_compiler/source/CMakeLists.txt
+index 39af3af46c..2e0b37e35f 100644
+--- a/shared/offline_compiler/source/CMakeLists.txt
++++ b/shared/offline_compiler/source/CMakeLists.txt
+@@ -450,7 +450,7 @@ endif()
+ if(WIN32)
+   set(LIBOCLOC_OUTPUT_NAME_SUFFIX ${OCLOC_BITNESS_SUFFIX})
+ elseif(UNIX)
+-  set(OCLOC_OUTPUT_NAME_SUFFIX "-${NEO_OCLOC_VERSION_MAJOR}.${NEO_OCLOC_VERSION_MINOR}")
++#  set(OCLOC_OUTPUT_NAME_SUFFIX "-${NEO_OCLOC_VERSION_MAJOR}.${NEO_OCLOC_VERSION_MINOR}")
+   if(NOT NEO_CURRENT_PLATFORMS_SUPPORT)
+     set(LIBOCLOC_OUTPUT_NAME_SUFFIX "-${NEO_OCLOC_VERSION_MAJOR}.${NEO_OCLOC_VERSION_MINOR}")
+   endif()
+
