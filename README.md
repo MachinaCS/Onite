@@ -25,3 +25,10 @@ Roadmap
   - [ ] Physics
   - [ ] Tools
   - [ ] UI (User Interface)
+### 2. Blender (Game Editor Mode)
+  - [ ] Game Editor View/Mode
+  - [ ] Console/Message Log
+  - [ ] Game Views
+  - [ ] Game Project Preferences (Name, Description, Version, Locations, Renderer, Input Map, Multiplayer, Target Hardware ect.)
+  - [ ] Add Project Browser (Textures, Objects, Colections, Actions, Materials, Worlds and Nodes/Scripts)
+  - [ ] Game Nodes Editor (Global, World, Object)
